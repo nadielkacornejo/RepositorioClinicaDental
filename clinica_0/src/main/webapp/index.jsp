@@ -88,7 +88,7 @@
                     <div class="card-blog">
 
                         <div class="container-img">
-                            <img src="https://www.elnuevodia.com/resizer/gvQ9NdpZrpmCr5Rm4-yYr4aN-EU=/829x0/filters:quality(75):format(jpeg):focal(388x163:398x153)/cloudfront-us-east-1.images.arcpublishing.com/gfrmedia/P7M7PLFE3FGRVMEFMYEF7HPWMU.jpg" alt="img-blog3"/>
+                            <img src="https://gacetadental.com/wp-content/uploads/2022/07/clinicadental-1.jpg" alt="img-blog3"/>
                         </div>
 
                         <div class="content-blog">
