@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+html {
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    /*background: url("../img/img.svg") no-repeat center top;*/
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+}
+/*-->Header!*/
+.header{
+    background-color: #1167B0;
+    display: flex;
+    position: fixed;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px; /*alto del header*/
+    width: 170vh;
+    padding: 5px 6%;
+    font-size: 15px;
+}
+
+.header .logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+
+}
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0px 20px; /*separacion=espace ocupado*/
+    /*margin-bottom: 12px;*/
+}
+/*agrandar texto*/
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color: #ececf1;
+    text-decoration: none;
+}
+
+.header .nav-links li a:hover{
+    color: #D9AB0C;
+}
+/*end header!<--*/
+
+/*-->menu lateral izquierdo */
+.menu-cont{
+    width: 280px;
+    background-color: rgba(22, 68, 168, 0.918);
+    position: fixed;
+    top: 90px;
+    left: 0;
+    height: 100%;
+}
+/* Estilo para los elementos del menú */
+.nav-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.nav-menu li {
+    margin: 0;
+    padding: 10px 0;
+
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 12px 25px; /*alto / ancho*/
+    transition: background-color 0.3s;
+    font-size: 15px;
+}
+
+.nav-menu a:hover {
+    border-bottom: 2px solid #fff;
+    background: #1f1f1f;
+}
+/*end menu lateral izquierdo<--*/
+
+/**************************************/
+.modificar{
+    width: 90%;
+    padding: 50px 50px;
+    margin-top: 55px;
+    margin-left: 300px;
+    font-size: 180%;
+}
+.nuevo{
+    width: 90%;
+    padding: 50px 50px;
+    margin-top: 55px;
+    margin-left: 300px;
+    font-size: 180%;
+}
+.servicios{
+    width: 90%;
+    padding: 10px;
+    margin-top: 65px;
+    margin-left: 300px;
+    font-size: 130%;
+}
+
+.pacientes{
+    width: 90%;
+    padding: 10px;
+    margin-top: 65px;
+    margin-left: 300px;
+    font-size: 130%;
+}
+
+.tablita{
+    width: 100%;
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 10px;
+}
+
+thead {
+    background-color:#303134;
+    color: white;
+    border-bottom: solid 3px #A19E9B;
+}
+tr:nth-child(even){
+    background-color: #B4B2B2;
+}
+tr:hover td{
+    background-color: #A19E9B;
+}
+
